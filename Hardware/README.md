@@ -1,7 +1,7 @@
-#Hardware
+# Hardware
 The hardware conssists of an external development board for driving the latching solenoids and several PCBs for the embedded device. 
 
-##Development board - V0.1
+## Development board - V0.1
 
 The development board is available in the Development board folder.
 
@@ -13,5 +13,5 @@ The board features an ATMEGA808-XUR microcontroller and two SN74HCS264DR shift r
 
 The board was developed in EasyEDA as it is a simple board whose sole purpose is to develop the firmware for the device; the board simply connects a microcontroller to shift registers, and shift registers to H-bridge drivers.
 
-##Embedded PCB
+## Embedded PCB
 The embedded device controller is currently in development. The device will be completed after finalization of the physical model.

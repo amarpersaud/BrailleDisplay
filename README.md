@@ -6,7 +6,7 @@ The design is inspired by MOLBED, a design which uses a latching solenoid formed
 ## Physical Design Versions
 
 ### Version A (discontinued)
-The first design consideration (Version A) (discontinued) consisted of an solenoid powered device with a physical latching mechanism, rather than the magnetic mechanism of MOLBED. Due to its low actuation force, complexity, and issues with actuation errors due to physical loading while actuating, it is no longer a consideration. Version B and C are two separate branching models under consideration.
+The first design consideration (Version A) (discontinued) consisted of an solenoid powered device with a physical latching mechanism, rather than the magnetic mechanism of MOLBED. Due to its low actuation force, complexity, and issues with actuation errors due to physical loading while actuating, it is no longer a consideration. Another major downside to this design is that all solenoids representing an extended dot must be simultaneously powered due to the physical latching mechanism locking all 8 dots at the same time, increasing the instantaneous power draw. Version B and C are two separate branching models under consideration.
 
 ### Version B
 Version B uses a directly actuated latching solenoid which utilizes the force of a magnet hold the solenoid in the top position, more similar to MOLBED. The design is altered to reduce part count and complexity while improving actuation and holding force, and giving space to integrate electronics. This produces a module which has self contained drivers, with high holding force in the extended position, and high actuation force.
